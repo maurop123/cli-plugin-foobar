@@ -1,7 +1,3 @@
-// Main package function
-function log() {
-  console.log('cli-plugin-foobar');
+module.exports = api => {
+  console.log('api', api)
 }
-
-// Make the main function available to other packages that require us
-module.exports = log;
