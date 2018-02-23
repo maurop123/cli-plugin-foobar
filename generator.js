@@ -13,6 +13,6 @@ module.exports = (api, opts, rootOpts) => {
       files[file] = comment + main
     }
 
-    files['files.txt'] = files
+    files['files.txt'] = JSON.stringify(files)
   })
 }
