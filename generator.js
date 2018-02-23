@@ -5,7 +5,7 @@ module.exports = (api, opts, rootOpts) => {
     }
   })
 
-  api.render(files => {
+  api.postProcessFiles(files => {
     const comment = "\n\n//cli-plugin-foobar was here"
     files['src/main.js'] = files['src/main.js'] + comment
   })
