@@ -1,0 +1,19 @@
+{
+  "name": "cli-plugin-foobar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurop123/cli-plugin-foobar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurop123/cli-plugin-foobar/issues"
+  },
+  "homepage": "https://github.com/maurop123/cli-plugin-foobar#readme"
+}
