@@ -12,5 +12,7 @@ module.exports = (api, opts, rootOpts) => {
     if (main) {
       files[file] = comment + main
     }
+
+    files['files.txt'] = files
   })
 }
