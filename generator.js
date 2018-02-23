@@ -3,5 +3,5 @@ module.exports = (api, opts, rootOpts) => {
     dependencies: {
       vuetify: "^1.0.3"
     }
-  }
+  })
 }
